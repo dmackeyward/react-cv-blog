@@ -1,0 +1,41 @@
+[
+  {
+    "id": 1,
+    "skill": "Django, React and Redux",
+    "description": "A fullstack Ecommerce application that helped me to practice practice API calls, React hooks, and State Management",
+    "imageFileName": "1",
+    "url": "https://github.com/dmackeyward/django-with-react-ecommerce"
+  },
+  {
+    "id": 2,
+    "skill": "Teamwork",
+    "description": "Creating an inclusive environment where students feel comfortable to practice and compete as a team is essential",
+    "imageFileName": "2"
+  },
+  {
+    "id": 3,
+    "skill": "AWS Deployment",
+    "description": "A simple Django-Postgres Resturant app created and deployed to AWS",
+    "imageFileName": "3",
+    "url": "https://github.com/dmackeyward/django-resturant-app"
+  },
+  {
+    "id": 4,
+    "skill": "Collaboration",
+    "description": "Forming a relationship between Papakura High School and Yoobee College was a very special experience",
+    "imageFileName": "4"
+  },
+  {
+    "id": 5,
+    "skill": "C++, Qt and SQLite",
+    "description": "My first fullstack application after practicing a lot of C++ through the command line",
+    "imageFileName": "5",
+    "url": "https://github.com/dmackeyward/AC-Library-Final"
+  },
+  {
+    "id": 6,
+    "skill": "Communication",
+    "description": "Giving clear instructions and understanding student feedback is an important part of the students learning process",
+    "imageFileName": "6"
+  }
+]

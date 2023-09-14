@@ -1,0 +1,16 @@
+{
+  "files": {
+    "main.css": "/react-cv-blog/static/css/main.6df2b055.css",
+    "main.js": "/react-cv-blog/static/js/main.2fd73434.js",
+    "static/media/profile.jpg": "/react-cv-blog/static/media/profile.5331a6c61e10fb9ab243.jpg",
+    "static/media/David Mackey-Ward - CV.pdf": "/react-cv-blog/static/media/David Mackey-Ward - CV.de7c6fb5cc8ae91e3a4c.pdf",
+    "static/media/icon.jpg": "/react-cv-blog/static/media/icon.bb64cacea101fe54056e.jpg",
+    "index.html": "/react-cv-blog/index.html",
+    "main.6df2b055.css.map": "/react-cv-blog/static/css/main.6df2b055.css.map",
+    "main.2fd73434.js.map": "/react-cv-blog/static/js/main.2fd73434.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.6df2b055.css",
+    "static/js/main.2fd73434.js"
+  ]
+}
