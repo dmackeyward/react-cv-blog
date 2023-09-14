@@ -8,7 +8,7 @@ const Skills = () => {
   useEffect(() => {
     const fetchData = async () => {
       try {
-        const response = await fetch('/data/data.json',
+        const response = await fetch('/react-cv-blog/data/data.json',
           {
             headers: {
               'Content-Type': 'application/json',
