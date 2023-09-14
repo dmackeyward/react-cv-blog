@@ -1,0 +1,80 @@
+.animation-wrapper {
+    height: 20vh;
+    /*This part is important for centering*/
+    display: grid;
+    place-items: center;
+    margin: -25px;
+  }
+  
+  .animation {
+    width: 35ch;
+    animation: typing 3.5s steps(35), blink 0.75s step-end infinite alternate;
+    white-space: nowrap;
+    overflow: hidden;
+    border-right: 3px solid;
+    font-family: monospace;
+    font-size: 3em;
+  }
+  
+  @keyframes typing {
+    from {
+      width: 0
+    }
+  }
+      
+  @keyframes blink {
+    50% {
+      border-color: transparent
+    }
+  }
+
+  .profile {
+    width: 175px; 
+    height: auto; 
+    border-radius: 50%; 
+    display: block;
+    margin: 0 auto;
+  }
+
+  .aboutme-wrapper {
+    background-color: #f9f4e3;
+    text-align: center; 
+    margin-top: 50px;
+    padding: 25px;
+    font-family: monospace;
+  }
+
+  .aboutme {
+    max-width: 700px; 
+    margin: 0 auto; 
+  }
+  
+  .aboutme h1 {
+    font-size: 24px; 
+    margin-bottom: 20px; 
+  }
+  
+  .aboutme p {
+    font-size: 16px; 
+    margin-bottom: 15px;
+  }
+
+  @media screen and (max-width: 868px) {
+    .animation {
+      font-size: 2em;
+    }
+  }
+
+  @media screen and (max-width: 525px) {
+    .aboutme h1 {
+      font-size: 16px; 
+    }
+    
+    .aboutme p {
+      font-size: 12px; 
+    }
+
+    .animation {
+      font-size: 1.5em;
+    }
+  }

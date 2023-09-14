@@ -1,3 +1,22 @@
-.title {
-    color: purple
-}
+.logo {
+    width: 100px; /* Adjust the width as needed */
+    height: auto; /* This maintains the aspect ratio */
+    border-radius: 50%; /* Make it circular */
+  }
+
+.ul {
+    list-style-type: none; /* Remove bullet points */
+    display: flex;
+    justify-content: space-between;
+  }
+  
+  .left {
+    margin-left: 50px;
+  }
+  
+  .right {
+    margin: 25px;
+    margin-top: 30px;
+    margin-right: 75px;
+  }
+  

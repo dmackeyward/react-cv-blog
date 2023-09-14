@@ -1,0 +1,49 @@
+.footer {
+    margin-top: 30px;
+    background-color: #f9f4e3;
+    color: black;
+    padding: 20px 0;
+    text-align: center;
+  }
+  
+  .container {
+    max-width: 1200px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;;
+    align-items: center;
+    flex-direction: column;
+  }
+  
+  p {
+    margin: 0;
+  }
+  
+  .socialLinks {
+    list-style: none;
+    padding: 0;
+    display: flex;
+    gap: 10px;
+    justify-content: center;
+  }
+  
+  .socialLinks li {
+    font-size: 18px;
+  }
+  
+  .socialLinks a {
+    color: black;
+    text-decoration: none;
+    transition: color 0.3s;
+    
+  }
+  
+  .socialLinks a:hover {
+    color: green; 
+  }
+  
+  .logo {
+    width: 100px; 
+    height: auto; 
+    border-radius: 50%; 
+  }

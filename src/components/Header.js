@@ -1,18 +1,20 @@
 import classes from "./Header.module.css"
 import icon from "../assets/icon.jpg"
+import Button from '@mui/material/Button';
+import cv from "../documents/David Mackey-Ward - CV.pdf"
 
 const Header = () => {
     return (
         <div>
             <header>
                 <nav>
-                    <ul>
-                        <li>
-                            <a href="/"><img src={icon} alt="Tennis Racquet Icon"></img></a>
+                    <ul className={classes.ul}>
+                        <li className={classes.left}>
+                            <a href="/"><img className={classes.logo} src={icon} alt="Tennis Racquet Navbar Logo"></img></a>
                         </li>
-                        <li>
-                            <a href="/cv.pdf" target="_blank" rel="noopener noreferrer">
-                                <button>Download CV</button>
+                        <li className={classes.right}>
+                            <a href={cv} target="_blank" rel="noreferrer">
+                            <Button variant="outlined" color="success">View CV</Button>
                             </a>
                         </li>
                     </ul>

@@ -1,0 +1,115 @@
+.list {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  align-items: center; /* Center items horizontally */
+  max-width: 900px;
+  justify-content: center;
+  align-items:center;
+  margin-left: auto !important;
+  margin-right: auto !important;
+}
+
+.item {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  margin-top: 30px;
+}
+
+.item h1,
+.item p,
+.item a {
+  margin-left: 40px;
+}
+
+.evenItem {
+  flex-direction: row-reverse;
+}
+
+.evenItem h1,
+.evenItem p,
+.evenItem a
+ {
+  margin-left: 0px;
+  margin-right: 20px;
+}
+
+.centerContent {
+  text-align: center;
+
+}
+
+.image {
+  height: 250px;
+  width: auto;
+  border-radius: 8px;
+}
+
+.text h1 {
+  font-size: 24px;
+  font-family: monospace !important;
+}
+
+.text p,
+.text a {
+  font-size: 16px;
+  font-family: monospace !important;
+}
+
+.text p {
+  margin-bottom: 10px;
+}
+
+
+@media screen and (max-width: 1168px) {
+  
+  .image {
+    height: 200px;
+    width: auto;
+  }
+
+  .text h1 {
+    font-size: 18px;
+  }
+  
+  .text p,
+  .text a {
+    font-size: 14px;
+  }
+}
+
+@media screen and (max-width: 868px) {
+
+  .image {
+    height: 150px;
+    width: auto;
+  }
+
+  .text h1 {
+    font-size: 16px;
+  }
+  
+  .text p,
+  .text a {
+    font-size: 12px;
+  }
+}
+
+@media screen and (max-width: 525px) {
+  .image {
+    height: 90px;
+    width: auto;
+  }
+
+  .text h1 {
+    font-size: 14px;
+  }
+  
+  .text p,
+  .text a {
+    font-size: 10px;
+  }
+}
+
