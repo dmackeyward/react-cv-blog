@@ -8,16 +8,18 @@ const Header = () => {
                 <nav>
                     <ul>
                         <li>
-                            <a href="/"><img src={icon}></img></a>
+                            <a href="/"><img src={icon} alt="Tennis Racquet Icon"></img></a>
                         </li>
                         <li>
-                            <a href="/cv.pdf" target="_blank" rel="noopener noreferrer"><button>Download CV</button></a>
+                            <a href="/cv.pdf" target="_blank" rel="noopener noreferrer">
+                                <button>Download CV</button>
+                            </a>
                         </li>
                     </ul>
                 </nav>
             </header>
         </div>
     )
-} 
-    
+}
+
 export default Header
