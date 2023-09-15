@@ -44,7 +44,6 @@ const Skills = () => {
           <ListItemText className={classes.text}>
             <h1>{item.skill}</h1>
             <p>{item.description}</p>
-            {console.log("URL: ", item.url)}
             {item.url !== undefined && item.url !== "" && (<a href={item.url} target="_blank" rel="noopener noreferrer">
               Github Repo
             </a>)}

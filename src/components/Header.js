@@ -10,7 +10,7 @@ const Header = () => {
                 <nav>
                     <ul className={classes.ul}>
                         <li className={classes.left}>
-                            <a href="/"><img className={classes.logo} src={icon} alt="Tennis Racquet Navbar Logo"></img></a>
+                            <a href="https://dmackeyward.github.io/react-cv-blog/"><img className={classes.logo} src={icon} alt="Tennis Racquet Navbar Logo"></img></a>
                         </li>
                         <li className={classes.right}>
                             <a href={cv} target="_blank" rel="noreferrer">
