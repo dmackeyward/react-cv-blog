@@ -1,16 +1,16 @@
 {
   "files": {
     "main.css": "/react-cv-blog/static/css/main.3fdc84ab.css",
-    "main.js": "/react-cv-blog/static/js/main.3ad86afc.js",
+    "main.js": "/react-cv-blog/static/js/main.8f35ce01.js",
     "static/media/profile.jpg": "/react-cv-blog/static/media/profile.5331a6c61e10fb9ab243.jpg",
-    "static/media/David Mackey-Ward - CV.pdf": "/react-cv-blog/static/media/David Mackey-Ward - CV.d628e90fe2dbd29c4050.pdf",
+    "static/media/David Mackey-Ward - CV.pdf": "/react-cv-blog/static/media/David Mackey-Ward - CV.6081e505aebb7efed7c2.pdf",
     "static/media/icon.jpg": "/react-cv-blog/static/media/icon.bb64cacea101fe54056e.jpg",
     "index.html": "/react-cv-blog/index.html",
     "main.3fdc84ab.css.map": "/react-cv-blog/static/css/main.3fdc84ab.css.map",
-    "main.3ad86afc.js.map": "/react-cv-blog/static/js/main.3ad86afc.js.map"
+    "main.8f35ce01.js.map": "/react-cv-blog/static/js/main.8f35ce01.js.map"
   },
   "entrypoints": [
     "static/css/main.3fdc84ab.css",
-    "static/js/main.3ad86afc.js"
+    "static/js/main.8f35ce01.js"
   ]
 }
